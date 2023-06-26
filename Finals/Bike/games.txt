@@ -1,0 +1,9 @@
+hades,9000,hades.jpg
+deathstranding,13000,DS.jpg
+thelastofus,13000,LOFU.jpg
+eldenring,12000,TARNISHED RING.jpg
+godofwar4,11000,DAD OF BOI.jpg
+sekiro,9000,SEKIRO.jpg
+spooderman,13000,Spooder-Man.jpg
+valorant,9000,val.jpg
+doometrnl,1300,doom.jpg

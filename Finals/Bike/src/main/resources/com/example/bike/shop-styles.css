@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+.GameBackground {
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-padding: 10px;
+  -fx-spacing: 10px;
+}
+
+.ElementalShadow {
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.541), 10, 0, 10, 10);
+}
+
+.GameNameText {
+  -fx-font-family: "Ysabeau SC", sans-serif;
+  -fx-font-size: 20px;
+  -fx-stroke: white;
+  -fx-stroke-width: 1px;
+  -fx-font-weight: bold;
+  -fx-font-style: italic;
+  -fx-fill: white;
+}
+
+.compat-button {
+  -fx-background-color: "red";
+  -fx-text-fill: "white";
+  -fx-font-family: "Arial";
+  -fx-font-size: 14px;
+  -fx-background-radius: 15px;
+  -fx-transition-duration: 0.5s;
+  -fx-transition-property: background-color, text-fill;
+}
+.compat-button:hover {
+  -fx-background-color: darkred;
+  -fx-text-fill: white;
+  -fx-border-color: yellow;
+  -fx-border-width: 2px;
+  -fx-border-radius: 5px;
+  -fx-border-radius: 15px;
+  -fx-cursor: hand;
+}
+.compat-button:hover:pressed {
+  -fx-background-color: maroon;
+}
+.compat-button:hover:disabled {
+  -fx-opacity: 0.5;
+}
+
+.flex-pane {
+  -fx-background-image: url("\background.jpg");
+  -fx-background-size: cover;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-background-color: "black";
+}
+
+.image-view {
+  -fx-opacity: 0.7;
+  -fx-transition-duration: 1s;
+  -fx-transition-timing-function: ease-in-out;
+}
+
+.image-view:hover,
+.image-view:focus {
+  -fx-opacity: 1;
+  -fx-translate-y: -5px;
+}

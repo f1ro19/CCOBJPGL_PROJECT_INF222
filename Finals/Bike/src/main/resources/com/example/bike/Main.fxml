@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="900.0" style="-fx-background-color: yellow;" stylesheets="@shop-styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bike.ShopController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="150.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <ScrollPane fx:id="itemScrollPane" fitToHeight="true" fitToWidth="true" pannable="true" prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="1" GridPane.rowSpan="2147483647">
+         <content>
+            <FlowPane fx:id="flexPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="20.0" prefHeight="719.0" prefWidth="898.0" rowValignment="TOP" styleClass="flex-pane" stylesheets="@shop-styles.css" vgap="10.0" />
+         </content>
+      </ScrollPane>
+      <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="299.0" layoutY="49.0" prefHeight="50.0" prefWidth="302.0" text="PC-GPU Checker" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.8009478672985783" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="0.29629629850387573" blue="0.29629629850387573" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</GridPane>
